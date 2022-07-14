@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "phpmotors",
+			"path": "."
+		},
+		{
+			"name": "htdocs",
+			"path": "..\\..\\..\\..\\..\\xampp\\htdocs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "htdocs"
+	}
+}

@@ -1,0 +1,332 @@
+body{
+font-family: 'Dosis', sans-serif;
+margin: 0px;
+background-image: url("../images/site/checkerboard.jpg")
+}
+h2{
+    color: #4c96d7;
+}
+main{
+    padding: 15px;
+    padding-top: 0px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#myAccount{
+    float: right;
+    width: 150px;
+    text-align: center;
+    align-self: center;
+}
+
+#contentWrapper{
+    width: 100%;
+    margin: 0px;
+    background-color: #ffffff;
+   
+
+}
+
+#mainNavigation{
+    background-color: #3a3a3a;
+    
+}
+#mainNavigation ul{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: flex-start;
+    flex-grow: 1;
+}
+#mainNavigation li{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+#mainNavigation li a{
+    margin: auto;
+    font-size: 15pt;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+#mainNavigation li a:hover{
+    background-color: #4c96d7;
+    color: #3a3a3a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#row1, #row2{
+    width: 40%;
+}
+
+#section2{
+    width: 100%;
+}
+#section3{
+    width: 100%;
+}
+
+.footer{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.footer hr{
+    border: 2px solid #3a3a3a
+}
+.upgradeSection{
+    display: flex;
+    justify-content: space-around;
+    align-content: stretch;
+    text-align: center;
+}
+.upgradeBox{
+    background-color: #4c96d7;
+    border: 1px solid #000;
+    text-align: center;
+    height: 100px;
+}
+
+.deloreanPic{
+    width: 100%;
+}
+
+.upgradePic{
+    margin: auto;
+    padding-top: 15px;
+}
+
+.deloreanText{
+    font-size: 15pt;
+    color: #4c96d7;
+    position: absolute;
+    top: 280px;
+    font-weight: 900;
+   
+}
+.ownToday{
+    border: 0px;
+    padding: 0px;
+    margin: auto;
+}
+.ownToday img{
+    width: auto;
+}
+.ownTodayWrapper{
+    width: 100%;
+    text-align: center;
+}
+.bulletListWrapper{
+    width: 100%;
+    text-align: center;
+}
+.bulletListWrapper ul{
+    text-align: left;
+    font-size: 20pt;
+}
+.inputForm{
+    display: table;
+}
+
+.inputForm{
+    font-weight: 700;
+    
+}
+.inputForm input{
+    display: table-cell;
+}
+.inputForm label{
+    display: table-cell;
+}
+
+.inputForm input{
+    height: 25px;
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+}
+.submitButton{
+    background-color: #4c96d7;
+    font-size: 13pt;
+    font-weight: 700;
+    height: 25px;
+    margin-top: 5px;
+}
+#inventoryDisplay th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  tr:hover {background-color: #99c2e5;}
+
+
+  #inv-display{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   
+   #inv-display li{
+    margin-bottom: .5em;
+    margin: 10px;
+    border: 1px #ccc solid;
+    list-style-type: none;
+    flex: 1 1 auto;
+    max-width: 200px;
+    height: 250px;
+    border-radius: 15px;
+   }
+   
+   #inv-display li img {
+       max-width: 100%;
+       border-radius: 15px 15px 0px 0px;
+   }
+
+   #inv-display li:hover{
+    background-color: #3a3a3a;
+    color: #ffffff;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all .4s ease;
+   }
+   #inv-display hr{
+    position: relative;   
+   }
+  
+   #vehicle-display{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+   }
+   #vehicle-display li img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    }
+    #vehicle-Info{
+        margin: 40px;
+    }
+
+    #thumbnail-display{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+       }
+
+    #detailContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+@media only screen and (min-width: 1000px) {
+  
+
+
+    #detailContainer{
+        display: flex;
+        flex-direction: row;
+    }
+    #thumbnail-display{
+        list-style-type: none;
+        margin: 10px;
+        padding: 0;
+        
+       }
+    #thumbnail-display img{
+        width: 150px;
+        border-radius: 5px;
+       }
+    #thumbnail-display li:hover{
+        list-style-type: none;
+        transform: scale(2);
+        transition: all .4s ease;
+       }
+	#inv-display {
+		flex-flow: row wrap;
+		
+	}
+
+	#inv-display h2{
+		font-size: 1rem;
+	}
+
+	#inv-display li {
+		max-width: 200px;
+		flex: 1 0 auto;
+		text-align: center;
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+        margin: 10px;
+		justify-content: space-between;
+	}
+      
+	#inv-display div {
+		width: 100%;
+	}
+    #vehicle-display {
+		flex-flow: row wrap;
+		
+	}
+    #vehicle-display li img {
+        width: 50%;
+        
+        border-radius: 15px;
+        }
+    #vehicle-display li {
+        display: flex;
+        align-items: center;
+     }
+
+
+    #contentWrapper{
+        width: 800px;
+        margin: auto;
+        background-color: #ffffff;
+        border: 5px solid #4c96d7;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .ownTodayWrapper{
+        width: auto;
+        text-align: left;
+        position: absolute;
+        top: 380px;
+    }
+
+
+    .ownToday img{
+        width: 150px;
+    }
+
+   
+    #mainNavigation ul{
+    
+        padding: 0px;
+        justify-content: flex-start;
+      
+    }
+
+    #section2{
+        width: 49%;
+        float: right;
+    }
+    #section3{
+        width: 50%;
+    }
+  }
